@@ -1,0 +1,77 @@
+body {
+  background-color: #cce7ff; /* Nền xanh dương nhạt */
+}
+
+
+.navbar-custom {
+  background-color: #3399ff; /* Màu nền navbar */
+}
+
+
+.navbar-custom a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-custom .btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.navbar-custom a:hover,
+.dropdown-menu .dropdown-item:hover {
+  color: black;
+}
+
+.dropdown-menu {
+  background-color: #99ccff !important;
+}
+
+.dropdown .btn:hover {
+  background-color: #4da6ff !important;
+}
+
+.dropdown .btn {
+  transition: background-color 0.3s;
+}
+
+.dropdown .btn:focus:not(:active),
+.dropdown .btn:active:focus {
+  background-color: transparent !important;
+}
+
+.container {
+  max-width: 600px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #0047b3;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+}
+
+.btn-pastel {
+  background-color: #4da6ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn-pastel:hover {
+  background-color: #003d99;
+  color: white;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #002d66;
+}
